@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { prisma } from '../../../lib/prisma.js';
+import prisma from '../../../lib/prisma';
 
 // GET /api/feed - Retrieve paginated feed of images
 export async function GET(request) {
